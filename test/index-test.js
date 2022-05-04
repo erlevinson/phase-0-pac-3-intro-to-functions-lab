@@ -1,13 +1,13 @@
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO');
+describe('whisper(string)', function() {
+  it('receives one argument and returns it in lowercase', function() {
+    expect(whisper('HELLO')).toEqual('hello');
   })
 })
 
-describe('whisper(string)', function() {
-  it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toEqual('hello');
+describe('shout(string)', function() {
+  it('receives one argument and returns it in all caps', function() {
+    expect(shout('hello')).toEqual('HELLO');
   })
 })
 
